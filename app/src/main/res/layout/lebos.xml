@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#2c3e49"
+    tools:context="com.ekasi.katli.kasitour.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ViewFlipper
+            android:id="@+id/viewFlipper"
+            android:layout_width="fill_parent"
+            android:layout_height="170dp">
+
+            <ImageView
+                android:id="@+id/one"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:src="@drawable/l1"
+                android:scaleType="fitXY"/>
+            <ImageView
+                android:id="@+id/two"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:src="@drawable/l2"
+                android:scaleType="fitXY"/>
+            <ImageView
+                android:id="@+id/three"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:src="@drawable/l3"
+                android:scaleType="fitXY"/>
+            <ImageView
+                android:id="@+id/four"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:src="@drawable/l4"
+                android:scaleType="fitXY"/>
+            <ImageView
+                android:id="@+id/five"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:src="@drawable/l5"
+                android:scaleType="fitXY"/>
+            <ImageView
+                android:id="@+id/six"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:src="@drawable/l6"
+                android:scaleType="fitXY"/>
+            <ImageView
+                android:id="@+id/seven"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:src="@drawable/l7"
+                android:scaleType="fitXY"/>
+            <ImageView
+                android:id="@+id/eight"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:src="@drawable/l8"
+                android:scaleType="fitXY"/>
+
+        </ViewFlipper>
+
+
+    <RelativeLayout
+    android:layout_width="wrap_content"
+    android:layout_height="50dp"
+    android:orientation="vertical"
+        android:background="#fffb">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="From R370 per night for 2 ppl"
+        android:textSize="20sp"
+        android:textStyle="italic"
+        android:textColor="#000"
+        android:fontFamily="cursive"
+        android:gravity="center_horizontal"
+        android:layout_centerVertical="true"
+        android:layout_alignParentStart="true" />
+
+
+</RelativeLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="2"
+        android:layout_marginTop="4dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="4dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/star"/>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/star"/>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/star"/>
+
+        </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/details"
+        android:layout_marginLeft="3dp"
+        android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:textColor="#fff"
+        android:fontFamily="sans-serif"
+        android:layout_marginBottom="3dp"
+        android:layout_marginLeft="2dp"
+        android:text="Type : BnB and Guest House"
+        />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:textColor="#fff"
+            android:fontFamily="sans-serif"
+            android:layout_marginBottom="3dp"
+            android:layout_marginLeft="2dp"
+            android:text="Capacity : 26"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:textColor="#fff"
+            android:fontFamily="sans-serif"
+            android:layout_marginBottom="3dp"
+            android:layout_marginLeft="2dp"
+            android:text="Check-In : 14:00 to 19;l:00"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:textColor="#fff"
+            android:fontFamily="sans-serif"
+            android:layout_marginBottom="3dp"
+            android:layout_marginLeft="2dp"
+            android:text="Check-Out : 10:00"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:textColor="#fff"
+            android:fontFamily="sans-serif"
+            android:layout_marginBottom="3dp"
+            android:layout_marginLeft="2dp"
+            android:text="All ages are welcomed"
+            />
+
+
+    </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Description"
+                android:textSize="18sp"
+                android:padding="5dp"
+                android:textStyle="bold"
+                android:textColor="#fff"/>
+
+            <com.borjabravo.readmoretextview.ReadMoreTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/lebo"
+                app:trimExpandedText="show more"
+                app:trimCollapsedText="show less"
+                app:trimMode="trimModeLength"
+                app:trimLength="200"
+                android:paddingLeft="10dp"
+                android:textColor="#fff"
+                android:textSize="15sp"
+                android:layout_marginBottom="5dp"/>
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.ekasi.katli.kasitour">
+
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/protea_one"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Home">
+        </activity>
+
+        <activity android:name=".MainActivity"
+            android:theme="@style/SPLASH">
+        <intent-filter>
+            <action android:name="android.intent.action.MAIN" />
+
+            <category android:name="android.intent.category.LAUNCHER" />
+        </intent-filter>
+        </activity>
+        <activity android:name=".Accomodation"
+            android:label="Accomodation"/>
+        <activity android:name=".ChillZone"
+            android:label="Chill Zone"/>
+        <activity android:name=".Entertainment"
+            android:label="Entertainment"/>
+        <activity android:name=".Food"
+            android:label="Food"/>
+        <activity android:name=".Services"
+            android:label="Services"/>
+        <activity android:name=".Ekuthuleni"
+            android:label="Ekuthuleni Guest House"/>
+        <activity android:name=".Dithakong"
+            android:label="Dithakong Bed n Breakfast"/>
+        <activity android:name=".zazas"
+            android:label="zaza's Guest House"/>
+        <activity android:name=".Pimville"
+            android:label="Pimville Guest House"/>
+        <activity android:name=".Plekkie"
+            android:label="Plekkie in die Son Backpackers"/>
+        <activity android:name=".Don"
+            android:label="Don Picasso BnB"/>
+        <activity android:name=".Old"
+            android:label="Don Picasso BnB"/>
+        <activity android:name=".Hanna"
+            android:label="O'hanna's BnB"/>
+        <activity android:name="Lebo"
+            android:label="Lebo's Backpackers"/>
+        <activity android:name=".hectorPeterson"/>
+        <activity android:name=".orlandoStadium"/>
+        <activity android:name=".orlandoTowers"/>
+        <activity android:name=".soccerCity"/>
+        <activity android:name=".goldReefCity"/>
+        <activity android:name=".maponyaMall"/>
+        <activity android:name=".Attractions"/>
+    </application>
+
+</manifest>

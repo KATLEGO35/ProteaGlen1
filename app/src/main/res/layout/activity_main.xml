@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="0dp"
+    android:padding="0dp"
+    android:weightSum="3"
+    android:background="#2c3e49">
+
+
+
+
+    <TableRow
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_weight="1">
+
+
+            <TextView
+                android:id="@+id/Accomodation"
+                android:layout_width="0dp"
+                android:layout_height="80dp"
+                android:layout_column="1"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:textSize="18sp"
+                android:textColor="#fde052"
+                android:textStyle="bold"
+                android:layout_margin="10dp"
+                android:background="@drawable/rounded_corner"
+                android:drawableTop="@drawable/ic_local_hotel_black_24dp"
+                android:text="Accomodation"
+                android:padding="10dp"/>
+
+            <TextView
+                android:id="@+id/services"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_column="2"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:textSize="18sp"
+                android:textColor="#fde052"
+                android:textStyle="bold"
+                android:layout_margin="10dp"
+                android:background="@drawable/rounded_corner"
+                android:drawableTop="@drawable/ic_local_gas_station_black_24dp"
+                android:text="Services"
+                android:padding="10dp" />
+
+        </LinearLayout>
+    </TableRow>
+
+    <TableRow
+        android:layout_weight="1">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_weight="1">
+
+
+            <TextView
+                android:id="@+id/Food"
+                android:layout_width="0dp"
+                android:layout_height="80dp"
+                android:layout_column="1"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:textSize="18sp"
+                android:textColor="#fde052"
+                android:textStyle="bold"
+                android:layout_margin="10dp"
+                android:background="@drawable/rounded_corner"
+                android:drawableTop="@drawable/ic_local_dining_black_24dp"
+                android:text="Food"
+                android:padding="10dp" />
+
+            <TextView
+                android:id="@+id/attractions"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_column="2"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:textSize="18sp"
+                android:textColor="#fde052"
+                android:textStyle="bold"
+                android:layout_margin="10dp"
+                android:background="@drawable/rounded_corner"
+                android:drawableTop="@drawable/ic_camera_alt_black_24dp"
+                android:text="Attractions"
+                android:padding="10dp"/>
+
+        </LinearLayout>
+    </TableRow>
+
+    <TableRow
+        android:layout_weight="1">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_weight="1">
+
+
+            <TextView
+                android:id="@+id/Entertainment"
+                android:layout_width="0dp"
+                android:layout_height="80dp"
+                android:layout_column="1"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:textSize="18sp"
+                android:textColor="#fde052"
+                android:textStyle="bold"
+                android:layout_margin="10dp"
+                android:background="@drawable/rounded_corner"
+                android:drawableTop="@drawable/ic_local_movies_black_24dp"
+                android:text="Entertainment"
+                android:padding="10dp" />
+
+            <TextView
+                android:id="@+id/chill_zone"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_column="2"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:textSize="18sp"
+                android:textColor="#fde052"
+                android:textStyle="bold"
+                android:layout_margin="10dp"
+                android:background="@drawable/rounded_corner"
+                android:drawableTop="@drawable/ic_local_bar_black_24dp"
+                android:text="Chill Zone"
+                android:padding="10dp" />
+
+        </LinearLayout>
+    </TableRow>
+
+    <TableRow
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:layout_weight="1">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:src="@drawable/protea"
+                android:gravity="center"
+                android:textSize="25sp"
+                android:layout_marginBottom="3dp"
+                android:textColor="#fff"/>
+
+        </LinearLayout>
+
+    </TableRow>
+
+</TableLayout>
